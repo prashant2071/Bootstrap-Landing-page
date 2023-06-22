@@ -10,7 +10,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style/style.css">
   </head>
+
   <body>
     <!-- Home page start -->
     <section>
@@ -149,7 +151,7 @@
     <!-- Home page end  -->
 
     <!-- portfolio start here  -->
-    <section id="portfolio-section" class="portfolio section">
+    <section id="portfolio-section" class="portfolio section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -163,7 +165,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card text-light text-center pb-2">
               <div class="card-body text-dark">
                 <div class="img-area mb-4">
@@ -183,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card text-light text-center pb-2">
               <div class="card-body text-dark">
                 <div class="img-area mb-4">
@@ -193,7 +195,7 @@
                     class="img-fluid"
                   />
                 </div>
-                <h3 class="card-title">Building 1</h3>
+                <h3 class="card-title">Building 2</h3>
                 <p class="lead">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Cupiditate eligendi est architecto quas quam dicta modi enim,
@@ -203,7 +205,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card text-light text-center pb-2">
               <div class="card-body text-dark">
                 <div class="img-area mb-4">
@@ -213,7 +215,27 @@
                     class="img-fluid"
                   />
                 </div>
-                <h3 class="card-title">Building 1</h3>
+                <h3 class="card-title">Building 3</h3>
+                <p class="lead">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate eligendi est architecto quas quam dicta modi enim,
+                  doloremque ad eius!
+                </p>
+                <button class="btn btn-outline-warning">learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-light text-center pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img
+                    src="./public/sorasak-KxCJXXGsv9I-unsplash.jpg"
+                    alt="building"
+                    class="img-fluid"
+                  />
+                </div>
+                <h3 class="card-title">Building 3</h3>
                 <p class="lead">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Cupiditate eligendi est architecto quas quam dicta modi enim,
@@ -224,11 +246,114 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
     <!-- portfolio section end  -->
+    <!-- About page starts  -->
+    <section id="about" class="about section my-lg-5 my-3">
+      <div class="container">
+        <h3 class="text-center text-primary mb-4">About us</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="about-img">
+              <img
+                src="https://images.unsplash.com/photo-1681394345451-e640f3177404?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="img-fluid"
+                alt="image-about-action"
+              />
+            </div>
+          </div>
+          <div class="col-lg-8 col-MD-6 col-12 px-lg-5 px-3">
+            <div class="about-text">
+              <h2>
+                we provide best qualuty<br />
+                service ecer
+              </h2>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci quos deleniti autem perferendis. Provident, corporis?
+                Tempore nisi consectetur autem! Dolorem aliquam sed repellendus
+                omnis harum consequuntur similique, porro obcaecati expedita.
+              </p>
+              <a href="#" class="btn btn-outline-primary">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About page end -->
+    <!-- Contact page start  -->
+    <section class="contact">
+      <div class="container mb-5">
+        <h1 class="text-center">Contact us</h1>
+        <div class="row">
+          <form action="" class="form-label">
+            <div class="mb-3  ">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name here"
+              />
+            </div>
+          </div>
+            <div class="mb-3 ">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email here"
+              />
+            </div>
+            <div class="form-floating mb-3 ">
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Enter your address here"
+              />
+              <label for="address">Address</label>
+            </div>
+            <div class="mb-3 ">
+              <label for="description">Description</label>
+              <textarea
+                type="text"
+                class="form-control"
+                id="description"
+                placeholder="Enter your description here"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="mb-3 ">
+              <label for="file">Photo</label>
+              <input
+                type="file"
+                class="form-control"
+                id="file"
+                placeholder="Enter your file here"
+              />
+            </div>
+            <div class="mb-3 ">
+              <input type="checkbox" class="form-check-input" />
+              <lable class="form-check-label"
+                >I agree to term and condition</lable
+              >
+            </div>
+            <button class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact page End  -->
+    <!-- Footer page starts  -->
+    <footer class="bg-dark text-center">
+      <div class="container">
+        <p class="text-white">All Right reserve by @website-name</p>
+      </div>
+    </footer>
+    <!-- footer page ends  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
