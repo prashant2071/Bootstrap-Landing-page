@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#"
-            ><span class="text-warning fw-bold">Logo</span></a
+            ><span class=" fw-bold">Logo</span></a
           >
           <button
             class="navbar-toggler"
@@ -37,7 +37,7 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
+             <li class="nav-item">
                 <a class="nav-link" href="#"> Portfolio</a>
               </li>
               <li class="nav-item">
@@ -284,11 +284,11 @@
     <!-- About page end -->
     <!-- Contact page start  -->
     <section class="contact">
-      <div class="container mb-5">
+      <div class="container mb-5 ">
         <h1 class="text-center">Contact us</h1>
+        <form action="" class="form-label">
         <div class="row">
-          <form action="" class="form-label">
-            <div class="mb-3  ">
+            <div class="mb-3 col-lg-6">
               <label for="name">Name</label>
               <input
                 type="text"
@@ -297,24 +297,32 @@
                 placeholder="Enter your name here"
               />
             </div>
-          </div>
-            <div class="mb-3 ">
+            <div class="mb-3 col-lg-6">
               <label for="email">Email</label>
               <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Enter your email here"
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email here"
               />
             </div>
-            <div class="form-floating mb-3 ">
+            <div class="form-floating mb-3 col-lg-6 ">
               <input
                 type="text"
                 class="form-control"
                 id="address"
                 placeholder="Enter your address here"
               />
-              <label for="address">Address</label>
+              <label for="address">Temporary Address</label>
+            </div>
+            <div class="form-floating mb-3  col-lg-6">
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Enter your address here"
+              />
+              <label for="address">Permanent Address</label>
             </div>
             <div class="mb-3 ">
               <label for="description">Description</label>
@@ -341,14 +349,14 @@
                 >I agree to term and condition</lable
               >
             </div>
-            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary col-lg-2">Submit</button>
+            </div>
           </form>
-        </div>
       </div>
     </section>
     <!-- contact page End  -->
     <!-- Footer page starts  -->
-    <footer class="bg-dark text-center">
+    <footer class="bg-dark text-center ">
       <div class="container">
         <p class="text-white">All Right reserve by @website-name</p>
       </div>
